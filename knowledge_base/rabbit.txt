@@ -1,0 +1,35 @@
+feeding: Unlimited timothy hay should make up 80% of a rabbit's diet — it is essential for digestion.
+feeding: Offer a small amount of fresh leafy greens daily — romaine lettuce, cilantro, and parsley are good choices.
+feeding: Avoid iceberg lettuce, cabbage, and starchy vegetables — they can cause digestive issues.
+feeding: Fresh water must always be available; use a heavy bowl rather than a bottle for easier access.
+feeding: Pellets should be limited to 1/4 cup per 5 lbs of body weight daily for adult rabbits.
+feeding: Fruit is a treat only — no more than 1-2 tablespoons per day due to high sugar content.
+feeding: Avoid feeding rabbits beans, corn, seeds, or nuts — these are harmful to their digestive system.
+feeding: Rabbits practice cecotrophy — eating certain droppings directly from their body — this is normal and necessary.
+feeding: Fresh hay should be provided daily; stale or dusty hay can cause respiratory issues.
+feeding: Kale and spinach are high in oxalates and should be offered sparingly.
+enrichment: Rabbits need at least 3 hours of free roaming time outside their enclosure each day.
+enrichment: Provide cardboard boxes, tunnels, and chew toys to satisfy their natural digging and chewing.
+enrichment: Rabbits are social animals — they thrive with a bonded companion or regular human interaction.
+enrichment: Digging boxes filled with shredded paper or soil give rabbits an outlet for their instincts.
+enrichment: Willow balls, untreated wicker baskets, and apple wood sticks are safe chew enrichment items.
+enrichment: Rearranging their living space periodically keeps the environment novel and stimulating.
+enrichment: Rabbits can learn to respond to their name and perform simple tricks with clicker training.
+grooming: Brush short-haired rabbits weekly and long-haired breeds daily to prevent wool block.
+grooming: Never bathe a rabbit — it causes extreme stress and can lead to shock.
+grooming: Trim nails every 4-6 weeks to prevent curling and injury.
+grooming: Check the dewlap (skin fold under the chin) for moisture or irritation, especially in females.
+grooming: Scent glands near the tail and genitals can collect waxy buildup — clean gently with a cotton swab.
+grooming: Rabbits shed heavily 3-4 times per year — increase brushing frequency during shed season.
+grooming: Check teeth alignment monthly — overgrown or misaligned teeth (malocclusion) require vet care.
+medication: Rabbits hide signs of illness — any change in eating or behavior is a reason to call a vet.
+medication: Never give a rabbit medication intended for cats, dogs, or humans.
+medication: GI stasis is a life-threatening emergency — if your rabbit stops eating, see a vet immediately.
+medication: Spaying and neutering rabbits reduces cancer risk and improves temperament — recommended by 6 months.
+medication: Rabbits should see a rabbit-savvy vet annually — not all vets are experienced with exotic animals.
+medication: E. cuniculi is a common rabbit parasite that can cause head tilt and neurological symptoms — ask your vet.
+medication: Myxomatosis and VHD are deadly rabbit diseases — vaccinate if you live in an area where they are present.
+walk: Rabbits can be trained to walk on a harness; use a figure-8 style harness designed for rabbits.
+walk: Avoid walking rabbits on grass treated with pesticides or fertilizers.
+walk: Always supervise outdoor time — rabbits are prey animals and can be harmed by birds, cats, or dogs nearby.
+walk: Rabbits can go into shock from sudden loud noises or predator encounters — keep outdoor time calm and quiet.

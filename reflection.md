@@ -178,3 +178,56 @@ Every time I described what I wanted precisely — the class name, method signat
 AI also does not test its own output. The stale `_time_remaining` bug, the dictionary-vs-list storage question, the missing `due_date` guard in recurring tasks — none of these were flagged by AI unprompted. They surfaced when I ran the code, thought through real usage, or wrote tests. The design decisions, the verification, and the final judgment on what was correct always came from me.
 
 The right mental model is: **design first, then use AI to implement, then verify everything**. AI is a fast junior developer who writes clean code but needs clear instructions and a senior engineer checking the output.
+
+---
+
+## 6. Reflection and Ethics: Thinking Critically About Your AI
+
+### Limitations and Biases in the System
+
+**Knowledge base bias:** The care tips in PawPal+ were written by hand for five species categories. This means the advice reflects only what was included at the time of writing — it is not updated automatically, does not cite veterinary sources, and may not apply to every breed or individual animal. A tip that is appropriate for a Labrador may not be right for a Chihuahua, but the system treats all dogs the same.
+
+**Keyword matching limitations:** The RAG retriever matches tips by exact keyword. If a user adds a task type that doesn't match any keyword in the file (for example, a custom task name), the system falls back to returning all tips rather than nothing — which means confidence drops but the output stays broad and generic. The system has no way to detect when a question is outside its knowledge.
+
+**Species coverage gap:** Any pet that is not a dog, cat, rabbit, or bird receives general tips from `other.txt`. This is a deliberate fallback but it means hamsters, guinea pigs, reptiles, fish, and other common pets get the same generic advice regardless of their very different needs.
+
+**No veterinary validation:** None of the tips in the knowledge base have been reviewed by a licensed veterinarian. The system presents care advice with confidence scores that suggest reliability, but the content itself has not been professionally verified.
+
+---
+
+### Could This AI Be Misused?
+
+Yes — in two realistic ways:
+
+**1. Replacing professional veterinary advice.** A pet owner could use the AI care tips as a substitute for seeing a vet, especially for medication questions. The system gives confident-sounding bullet points about dosing schedules and drug interactions, which could cause harm if taken as medical guidance. To prevent this, every medication tip should include a disclaimer: *"Always consult your veterinarian before changing your pet's medication."*
+
+**2. False confidence from high confidence scores.** A confidence score of 1.0 simply means no keyword filter was applied — it does not mean the tips are accurate or complete. A user seeing "Retrieval confidence: 100%" may trust the output more than they should. A future version should rename the score to "Match rate" or add an explicit note that confidence reflects retrieval coverage, not medical accuracy.
+
+**Preventive measures already in place:**
+- The system is offline and local — it cannot be scaled to mislead large numbers of people
+- Tips are displayed as bullet points, not as authoritative instructions, which signals informational rather than prescriptive intent
+- The fallback to `other.txt` for unknown species makes the system's limits visible rather than hiding them
+
+---
+
+### What Surprised Me While Testing Reliability
+
+**The fallback behavior was more important than expected.** When testing `get_care_tips("hamster")`, the system returned generic tips from `other.txt` without any error. This seemed like a minor edge case during design but turned out to be one of the most important reliability behaviors — a system that crashes on unexpected input is unusable in production.
+
+**Confidence scores varied more than expected across species.** When filtering dog tips by "walk" only, the confidence score was around 0.19 (8 walk lines out of 42 total). When filtering rabbit tips by "feeding", it was 0.29. These scores felt low at first, but they are correct — they reflect how specialized the filter is relative to the full knowledge base. This taught me that a low confidence score is not a failure; it means the retrieval was precise.
+
+**The consistency test caught a subtle issue early.** Running `test_rag_same_input_returns_same_output` confirmed that `get_care_tips()` is deterministic. This seemed obvious, but it would fail if the function ever sorted results randomly or read file lines in a non-deterministic order on certain operating systems.
+
+---
+
+### AI Collaboration During This Project
+
+AI (Claude Code) was used throughout every phase of this project — from UML design to writing tests to debugging edge cases.
+
+**One instance where AI gave a helpful suggestion:**
+
+When implementing the `Scheduler` class, AI suggested making the sort and filter methods `@staticmethod` rather than instance methods. This was not something I had considered — I had planned to make them regular methods. The AI explained that since these methods take a list and return a list with no dependency on the scheduler's internal state, making them static would let the Streamlit UI call them directly without constructing a full `Scheduler` instance (which requires an `Owner`). This was correct and significantly simplified the UI code in `app.py`. It was a better design than what I had planned.
+
+**One instance where AI gave a flawed suggestion:**
+
+When designing how to store tasks on a `Pet`, AI initially suggested using a dictionary keyed by task name (`{"Walk": task_object}`). The reasoning was that dictionaries offer O(1) lookup and prevent duplicates. However, this was wrong for this use case. A pet owner could legitimately have two tasks with the same name — "Feeding (morning)" and "Feeding (evening)" — and a dictionary would silently overwrite the first with the second without raising any error. I rejected the suggestion and kept a list-based approach, which preserves all tasks, supports duplicates naturally, and is consistent with how the `find_duplicate_tasks()` method was designed to work. The AI's suggestion was technically functional for a simple case but wrong for real-world usage — catching it required thinking about the data, not just the code.

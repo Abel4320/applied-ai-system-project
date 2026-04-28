@@ -1,0 +1,37 @@
+feeding: Pellets should make up 60-70% of a pet bird's diet — seeds alone are nutritionally incomplete.
+feeding: Offer fresh vegetables and fruits daily — leafy greens, carrots, and berries are great choices.
+feeding: Avocado, chocolate, caffeine, and onion are toxic to birds — keep these away at all times.
+feeding: Change food and water daily to prevent bacterial growth.
+feeding: Seeds can be offered as treats but should not be the primary diet — they are high in fat.
+feeding: Spray millet is a popular treat but should be limited to avoid over-consumption.
+feeding: Cooked legumes, brown rice, and whole grains can be offered as healthy additions to the diet.
+feeding: Some birds enjoy foraging — scatter food around the cage to encourage natural feeding behavior.
+feeding: Calcium sources like cuttlebone and mineral blocks support bone and egg health.
+feeding: Never feed birds alcohol, raw onions, raw garlic, or fruit pits — all are toxic.
+enrichment: Birds need at least 2-4 hours outside their cage each day in a bird-safe room.
+enrichment: Rotate toys every few days — birds get bored quickly and need novelty to stay stimulated.
+enrichment: Foraging toys that hide food inside mimic natural feeding behavior and reduce boredom.
+enrichment: Talk, sing, or play music near your bird — vocal interaction supports mental health.
+enrichment: Teach your bird simple commands like "step up" — training sessions provide mental stimulation.
+enrichment: Swings, ladders, and ropes give birds varied perching options and physical exercise.
+enrichment: Birds enjoy watching TV or listening to nature sounds — this can reduce anxiety when alone.
+enrichment: Shreddable toys made of paper or palm leaves satisfy the urge to forage and destroy.
+enrichment: Social birds like cockatiels and parakeets thrive with a companion of the same species.
+grooming: Most birds bathe themselves; offer a shallow dish of lukewarm water 2-3 times per week.
+grooming: Trim wing feathers only if necessary for safety — consult a vet or avian specialist.
+grooming: Nails should be trimmed when they become sharp or curved, typically every 4-6 weeks.
+grooming: Beak overgrowth can indicate nutritional deficiency or health issues — consult an avian vet.
+grooming: Misting with a spray bottle mimics rain and encourages preening — most birds enjoy it.
+grooming: Check feathers regularly for barbering, broken shafts, or unusual color changes.
+grooming: Feather plucking is a serious behavioral or medical issue — seek avian vet advice promptly.
+medication: Birds metabolize medication differently from mammals — always use bird-specific doses.
+medication: Stress is a major health factor for birds — minimize handling during medication routines.
+medication: A sick bird may hide symptoms — sudden changes in droppings or behavior need vet attention.
+medication: Annual wellness exams with an avian vet are strongly recommended even for healthy birds.
+medication: Teflon cookware and self-cleaning ovens release fumes toxic to birds — use bird-safe cookware.
+medication: Air fresheners, scented candles, and smoke are harmful to a bird's sensitive respiratory system.
+medication: Aspergillosis is a common fungal infection in birds — ensure good ventilation and dry conditions.
+walk: Some larger birds like parrots enjoy outdoor time on a harness — start training indoors first.
+walk: Never leave a harnessed bird unsupervised outdoors — predators can appear suddenly.
+walk: Clip wings before allowing outdoor time if the bird is not harness trained.
+walk: Birds can be startled by sudden sounds — choose quiet, calm times for outdoor sessions.

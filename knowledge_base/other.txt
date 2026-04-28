@@ -1,0 +1,32 @@
+feeding: Research your specific pet's dietary needs — nutritional requirements vary widely across species.
+feeding: Avoid feeding processed human food to small pets — stick to species-appropriate diets.
+feeding: Fresh water should always be available and changed daily.
+feeding: Overfeeding is one of the most common causes of health problems in small pets — measure portions carefully.
+feeding: Many small animals are herbivores — ensure hay or fresh greens make up the bulk of their diet.
+feeding: Treats should make up no more than 5-10% of total daily food intake.
+feeding: Remove uneaten fresh food within a few hours to prevent mold and bacterial growth.
+feeding: Some small animals practice coprophagy (eating certain droppings) — this is normal and nutritionally important.
+enrichment: Most small pets benefit from environmental enrichment — tunnels, hides, and climbing structures.
+enrichment: Observe your pet's natural behaviors and provide items that allow them to express those behaviors.
+enrichment: Regular gentle handling builds trust and reduces stress for small animals.
+enrichment: Rotating toys and rearranging the habitat periodically prevents boredom.
+enrichment: Foraging activities — hiding food in bedding or toys — keep small animals mentally active.
+enrichment: Many small animals are crepuscular or nocturnal — schedule interaction during their active hours.
+enrichment: Same-species companionship benefits many small animals, but introductions must be done carefully.
+grooming: Check your pet's coat, nails, and teeth regularly even if professional grooming is not needed.
+grooming: Overgrown nails can cause pain and mobility issues — trim or seek professional help as needed.
+grooming: Some small animals groom themselves; others need regular brushing depending on coat length.
+grooming: Dental health is critical for many small animals — overgrown teeth can prevent eating entirely.
+grooming: Scent glands in some species need periodic cleaning — check species-specific guides.
+grooming: Never use human shampoo on small animals — use species-safe products only.
+medication: Always consult a vet before giving any medication to an exotic or small animal.
+medication: Dose calculations for small pets must be precise — small errors can be dangerous.
+medication: Monitor your pet closely after starting any new medication and report side effects to your vet.
+medication: Find an exotic animal vet before you need one — not all vets treat small animals.
+medication: Many small animals hide illness until it becomes severe — daily observation is essential.
+medication: Common signs of illness include weight loss, lethargy, changes in eating, and abnormal droppings.
+medication: Quarantine new animals before introducing them to existing pets to prevent disease spread.
+walk: Many small animals benefit from supervised exploration time in a safe, enclosed space.
+walk: Always watch for hazards like electrical cords, gaps, and other pets during free-roam time.
+walk: Some species can be harness trained for outdoor time — research your specific pet's needs.
+walk: Outdoor time exposes small animals to predators, toxins, and parasites — take precautions accordingly.

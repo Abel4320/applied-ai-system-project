@@ -1,0 +1,37 @@
+feeding: Cats are obligate carnivores — their diet must be high in animal protein.
+feeding: Feed adult cats twice daily and avoid leaving wet food out for more than 30 minutes.
+feeding: Fresh water should always be available; many cats prefer running water from a fountain.
+feeding: Dry food alone is not sufficient for hydration — mix in wet food regularly.
+feeding: Avoid feeding cats dog food — it lacks taurine and other nutrients cats require.
+feeding: Kittens need 3-4 meals a day; transition to twice daily after 6 months.
+feeding: Measure portions carefully — obesity is one of the most common health problems in cats.
+feeding: Onions, garlic, grapes, raisins, and chocolate are toxic to cats and must be avoided entirely.
+feeding: Cats are natural grazers; a puzzle feeder slows eating and provides enrichment simultaneously.
+feeding: Senior cats (7+) may need food formulated for older cats to support kidney and joint health.
+medication: Cats are sensitive to many medications — never give human medication without vet approval.
+medication: Hide pills in a small amount of wet food or use a pill pocket treat for easier dosing.
+medication: After giving liquid medication, offer a treat or small meal to reduce stress.
+medication: Flea prevention should be applied monthly — use cat-specific products only, never dog formulas.
+medication: Many essential oils and household plants (lilies, pothos, poinsettia) are toxic to cats.
+medication: Cats hide pain well; reduced appetite, hiding, or changes in litter box habits may signal illness.
+medication: Never give acetaminophen (Tylenol) to cats — even small amounts are fatal.
+medication: Dental disease affects over 70% of cats by age 3 — annual dental cleanings are recommended.
+grooming: Most cats groom themselves, but long-haired breeds need brushing 2-3 times per week.
+grooming: Trim nails every 2-3 weeks to prevent snagging and overgrowth.
+grooming: Check ears weekly for redness, odor, or discharge — signs of infection.
+grooming: Use a fine-toothed comb to check for fleas — black pepper-like specks in the fur are flea dirt.
+grooming: Brushing reduces hairballs — use a deshedding brush during shedding season.
+grooming: Clean around the eyes gently with a damp cloth if discharge accumulates.
+grooming: Cats that stop grooming themselves may be in pain or ill — consult a vet.
+enrichment: Cats need vertical space — cat trees and shelves satisfy their natural climbing instinct.
+enrichment: Interactive wand toys provide exercise and mimic natural hunting behavior.
+enrichment: Provide a window perch so your cat can watch birds and outdoor activity.
+enrichment: Rotate toys every few days — cats lose interest in static objects quickly.
+enrichment: Puzzle feeders engage hunting instincts and slow down fast eaters.
+enrichment: Cats are crepuscular — most active at dawn and dusk — schedule play sessions accordingly.
+enrichment: A second cat can reduce loneliness, but introductions should be gradual over several weeks.
+enrichment: Cardboard boxes and paper bags (handles removed) make simple, effective enrichment toys.
+walk: Some cats enjoy leash walks — introduce a harness slowly and use positive reinforcement.
+walk: Indoor cats benefit from supervised outdoor time in a secure garden or on a leash.
+walk: Never use a collar alone for leash walking — always use a figure-8 or H-style harness.
+walk: Start leash training indoors before taking your cat outside to build comfort with the harness.

@@ -1,0 +1,41 @@
+walk: Dogs need at least 30 minutes of walking per day to stay healthy and burn energy.
+walk: Large breeds like Labradors and Huskies may need 60-90 minutes of exercise daily.
+walk: Always carry water on walks longer than 20 minutes, especially in warm weather.
+walk: Puppies under 6 months should have shorter, more frequent walks to protect developing joints.
+walk: Senior dogs may need slower, shorter walks but still benefit from daily outdoor time.
+walk: Avoid walking dogs on hot pavement — if it burns your hand it burns their paws.
+walk: Retractable leashes reduce control; a standard 6-foot leash is safer in traffic or crowded areas.
+walk: Allow your dog to sniff during walks — sniffing is mentally tiring and calming for dogs.
+feeding: Adult dogs should be fed twice daily — once in the morning and once in the evening.
+feeding: Avoid feeding your dog right before or after exercise to prevent bloat.
+feeding: Fresh water should always be available and refreshed daily.
+feeding: Measure portions by weight, not volume — cup measurements vary widely by kibble shape.
+feeding: Table scraps can cause digestive upset and obesity; avoid grapes, raisins, onions, and chocolate entirely.
+feeding: Puppies need 3-4 meals a day; transition to twice daily after 6 months.
+feeding: Slow feeder bowls reduce gulping and lower the risk of bloat in deep-chested breeds.
+feeding: A healthy dog should have a visible waist when viewed from above and ribs felt but not seen.
+feeding: Wet food can supplement hydration for dogs that do not drink enough water.
+medication: Always complete the full course of any prescribed medication even if symptoms improve.
+medication: Give medication with food to reduce stomach upset unless the vet advises otherwise.
+medication: Keep a log of medication schedules to avoid missed or double doses.
+medication: Never give ibuprofen, acetaminophen, or aspirin to dogs — these are toxic.
+medication: Flea and tick preventatives should be applied monthly year-round in most climates.
+medication: Heartworm prevention is critical — a monthly chewable is the easiest method.
+medication: Store all medications in a cool, dry place away from the dog's reach.
+medication: If your dog vomits within 30 minutes of taking medication, contact your vet about re-dosing.
+grooming: Brush your dog at least once a week to remove loose fur and prevent matting.
+grooming: Bathe your dog every 4-6 weeks or when visibly dirty — overbathing dries out their skin.
+grooming: Trim nails every 3-4 weeks to prevent discomfort when walking.
+grooming: Check and clean ears weekly — excess wax or odor can indicate infection.
+grooming: Brush teeth 2-3 times per week with dog-safe toothpaste to prevent dental disease.
+grooming: Long-haired breeds may need professional grooming every 6-8 weeks.
+grooming: Check between paw pads for debris, cuts, or matting after every walk.
+grooming: Wipe down your dog after walks in rain or mud to prevent skin irritation.
+enrichment: Mental stimulation is as important as physical exercise — use puzzle feeders and training games.
+enrichment: Rotate toys regularly to keep your dog interested and engaged.
+enrichment: Socialization with other dogs and people is important for a balanced temperament.
+enrichment: Teach your dog one new command or trick per week to keep their mind active.
+enrichment: Scent games like hide-and-seek with treats tap into your dog's strongest sense.
+enrichment: Structured play sessions — fetch, tug, chase — provide both exercise and bonding time.
+enrichment: Chew toys satisfy the natural urge to chew and reduce destructive behavior indoors.
+enrichment: Dogs left alone for long periods benefit from a dog walker or daycare visit during the day.

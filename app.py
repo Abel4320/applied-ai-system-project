@@ -1,5 +1,6 @@
 import streamlit as st
 from pawpal_system import Owner, Pet, Task, Scheduler, Priority, TaskType
+from ai_advisor import get_care_tips
 
 st.set_page_config(page_title="PawPal+", page_icon="🐾", layout="centered")
 st.title("🐾 PawPal+")
@@ -224,3 +225,30 @@ if st.session_state.plans:
                 st.markdown("**Skipped**")
                 for task, reason in plan.skipped_tasks:
                     st.error(f"{task.name}: {reason}")
+
+st.divider()
+
+# ── AI Care Advisor (RAG) ─────────────────────────────────────────────────────
+st.subheader("AI Care Advisor")
+st.caption("Retrieves care tips from a local knowledge base — no internet or API key required.")
+
+if not st.session_state.pets:
+    st.info("Add a pet above to get care advice.")
+else:
+    advisor_pet_name = st.selectbox(
+        "Select a pet to get advice for",
+        [p.name for p in st.session_state.pets],
+        key="advisor_pet",
+    )
+
+    if st.button("Get AI Care Advice"):
+        target = next(p for p in st.session_state.pets if p.name == advisor_pet_name)
+        task_types = list({t.task_type.value for t in target.get_tasks()})
+        tips, confidence = get_care_tips(species=target.species, task_types=task_types)
+        if tips:
+            st.markdown(f"**Care tips for {target.name} ({target.species}):**")
+            st.info(tips)
+            st.caption(f"Retrieval confidence: {int(confidence * 100)}%")
+            st.progress(confidence)
+        else:
+            st.warning("No tips found for this pet.")

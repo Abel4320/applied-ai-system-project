@@ -1,6 +1,7 @@
 from datetime import date, timedelta
 
 from pawpal_system import Owner, Pet, Task, Priority, TaskType, Scheduler
+from ai_advisor import get_care_tips
 
 
 # ── Existing tests ────────────────────────────────────────────────────────────
@@ -206,3 +207,42 @@ def test_detect_conflicts_warns_on_cross_pet_scheduled_time_overlap():
     warnings = Scheduler(owner).detect_conflicts()
 
     assert any("Overlap" in w for w in warnings)
+
+
+# ── RAG Retriever ─────────────────────────────────────────────────────────────
+
+def test_rag_loads_dog_file_and_returns_tips():
+    tips, _ = get_care_tips("dog")
+    assert len(tips) > 0
+
+
+def test_rag_keyword_search_returns_relevant_lines():
+    tips, _ = get_care_tips("cat", task_types=["feeding"])
+    assert "feeding" in tips.lower() or "food" in tips.lower() or "diet" in tips.lower()
+
+
+def test_rag_same_input_returns_same_output():
+    result_1 = get_care_tips("rabbit", task_types=["grooming"])
+    result_2 = get_care_tips("rabbit", task_types=["grooming"])
+    assert result_1 == result_2
+
+
+def test_rag_unknown_species_falls_back_to_other():
+    tips, _ = get_care_tips("hamster")
+    assert len(tips) > 0
+
+
+def test_rag_no_task_types_returns_all_tips():
+    tips_filtered, _ = get_care_tips("bird", task_types=["feeding"])
+    tips_all, _ = get_care_tips("bird")
+    assert len(tips_all) >= len(tips_filtered)
+
+
+def test_rag_confidence_is_1_when_no_filter():
+    _, confidence = get_care_tips("dog")
+    assert confidence == 1.0
+
+
+def test_rag_confidence_is_partial_when_filtered():
+    _, confidence = get_care_tips("dog", task_types=["walk"])
+    assert 0.0 < confidence < 1.0

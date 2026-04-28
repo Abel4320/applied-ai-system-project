@@ -6,6 +6,18 @@ PawPal+ helps busy pet owners plan daily care tasks across multiple pets, automa
 
 ---
 
+## Video Walkthrough
+
+🎥 **[Watch the Loom walkthrough here](https://www.loom.com/share/b30ace685dcb485daeef9b7b609c4496)**
+
+The video demonstrates:
+- ✅ End-to-end system run with 2–3 inputs
+- ✅ RAG AI feature behavior (care tips + confidence score)
+- ✅ Reliability/guardrail behavior (fallback species, conflict warnings)
+- ✅ Clear outputs for each case
+
+---
+
 ## Demo
 
 <a href="app1.jpeg" target="_blank"><img src='app1.jpeg' title='PawPal App' width='' alt='PawPal App' /></a>

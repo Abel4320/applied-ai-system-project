@@ -122,6 +122,16 @@ else:
         target_pet.add_task(task)
         st.success(f"Added '{task_name}' to {selected_pet_name}.")
 
+        # Warn immediately if total task time now exceeds the owner's budget
+        if st.session_state.owner:
+            total = sum(t.duration for p in st.session_state.pets for t in p.get_incomplete_tasks())
+            budget = st.session_state.owner.get_available_time()
+            if total > budget:
+                st.warning(
+                    f"Total task time ({total} min) exceeds owner's available time "
+                    f"({budget} min) by {total - budget} min. Some tasks will be skipped when scheduling."
+                )
+
     st.divider()
 
     # ── Task view with sort and filter controls ───────────────────────────────
